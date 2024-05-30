@@ -1,0 +1,65 @@
+/* Style général de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Style du formulaire de contact */
+.contact-form {
+    width: 80%;
+    max-width: 400px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    margin: 0 0 15px;
+    text-align: center;
+    color: #333;
+}
+
+/* Style des champs de saisie */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Style du bouton d'envoi */
+.contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #004494;
+}
+
+/* Style des messages d'erreur */
+span {
+    color: red;
+    font-size: 0.9em;
+}
+
+/* Style des alertes de succès */
+.alert-success {
+    color: green;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 15px;
+}

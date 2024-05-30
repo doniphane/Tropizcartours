@@ -1,0 +1,75 @@
+body {
+    background-color: #f7f7f7;
+    color: #343a40;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #e9ecef;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar a {
+    color: #007bff;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #007bff;
+}
+
+form input, form textarea, form select {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    border-color: #007bff;
+}
+
+button, input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #e9ecef;
+}
+
+th {
+    background-color: #e9ecef;
+    text-transform: uppercase;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
