@@ -39,7 +39,5 @@ Tropizzcartours est un projet de site web fictif de location de voitures, dével
 
 
 
-## Licence
 
-Ce projet est sous licence MIT. Pour plus d'informations, consultez le fichier [LICENSE](LICENSE).
 
